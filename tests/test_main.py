@@ -15,4 +15,4 @@ def test_flask_hello():
   assert data["message"].startswith("Hello")
 
 def test_fail():
-  assert add(2, 2) == 5
+  assert add(2, 2) == 4
